@@ -1,3 +1,3 @@
-x=int(input())
-m=x//10
-print(m)
+a = int(input())
+x = a//10
+print(x)
