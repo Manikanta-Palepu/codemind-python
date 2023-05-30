@@ -1,11 +1,11 @@
-s = input()
+n = input()
 v = []
 count = 0
-for i in range(len(s)):
-    if (s[i]=='a' or s[i]=='e' or s[i]=='i' or s[i]=='o' or s[i]=='u') or (s[i]=='A' or s[i]=='E' or s[i]=='I' or s[i]=='O' or s[i]=='U'):
-        if s[i] not in v:
-            print(s[i], end = ' ')
-        v.append(s[i])
+for i in range(len(n)):
+    if (n[i]=='a' or n[i]=='e' or n[i]=='i' or n[i]=='o' or n[i]=='u') or (n[i]=='A' or n[i]=='E' or n[i]=='I' or n[i]=='O' or n[i]=='U'):
+        if n[i] not in v:
+            print(n[i] , end = ' ')
+        v.append(n[i])
         count += 1
 if count == 0:
     print('-1')
